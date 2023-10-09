@@ -29,13 +29,24 @@ kotlin {
         }
 
         val jsMain by getting {
+
+//            dependencies {
+//                implementation(compose.html.core)
+//                implementation(libs.kobweb.core)
+//                implementation(libs.kobweb.silk)
+//                implementation(libs.silk.icons.fa)
+//                // implementation(libs.kobwebx.markdown)
+//            }
+
             dependencies {
                 implementation(compose.html.core)
                 implementation(libs.kobweb.core)
                 implementation(libs.kobweb.silk)
-                implementation(libs.silk.icons.fa)
+//                implementation(libs.kobweb.silk.icons.fa)
                 // implementation(libs.kobwebx.markdown)
             }
+
+
         }
         val jvmMain by getting {
             dependencies {
