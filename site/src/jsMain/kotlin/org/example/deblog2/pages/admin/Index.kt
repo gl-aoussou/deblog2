@@ -1,4 +1,4 @@
-package com.example.blogmultiplatform.pages.admin
+package org.example.deblog2.pages.admin
 
 import androidx.compose.runtime.Composable
 
@@ -9,6 +9,7 @@ import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.fillMaxSize
 import com.varabyte.kobweb.compose.ui.modifiers.maxWidth
 import com.varabyte.kobweb.core.Page
+import org.example.deblog2.components.SidePanel
 import org.example.deblog2.util.Constants.PAGE_WIDTH
 import org.jetbrains.compose.web.css.px
 
@@ -37,7 +38,7 @@ fun HomePage() {
                 .fillMaxSize()
                 .maxWidth(PAGE_WIDTH.px)
         ) {
-//            SidePanel()
+            SidePanel()
         }
 
     }

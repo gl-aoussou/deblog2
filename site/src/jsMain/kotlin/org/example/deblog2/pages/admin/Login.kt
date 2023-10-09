@@ -116,7 +116,7 @@ fun LoginScreen() {
 //                                )
 //                            )
 
-                                val user = null
+                                val user = "user"
 
                                 if (user != null) {
 
@@ -141,7 +141,7 @@ fun LoginScreen() {
 
                     }.toAttrs()
             ) {
-                SpanText(text = "Chime in")
+                SpanText(text = "Dine in")
             }
 
             SpanText(
